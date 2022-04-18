@@ -13,3 +13,67 @@ body {
   flex-direction: column;
 }
 
+.user__item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.user__main {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px 0;
+  transition: all 0.4s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.user__main:hover .user__del {
+  transition: all 0.4s ease;
+  opacity: 1;
+}
+.user__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user__name {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.user__job {
+  margin: 0;
+  color: #b38e8e;
+}
+
+.user__imgbox {
+  padding: 0 15px;
+}
+.user__box {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+.user__wrapper {
+  padding-top: 12px;
+}
+
+.user__info {
+  color: #b38e8e;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.user__text {
+  font-size: 16px;
+  margin: 0;
+}
+
+.user__del {
+  position: absolute;
+  top: 50%;
+  left: 31%;
+  opacity: 0;
+  z-index: 10;
+}
