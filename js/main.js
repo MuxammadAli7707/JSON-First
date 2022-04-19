@@ -15,7 +15,7 @@ loadUser();
 function userMain(user) {
   user.data.forEach((element) => {
     let li = document.createElement("li");
-    li.className = `user__item col-md-4 col-lg-3`;
+    li.className = `user__item col-md-4 col-lg-3 animate__fadeInDown animate__animated`;
     li.innerHTML = `
         <div class="user__main">
         <div class="d-flex align-items-center mb-3 user__imgbox">
